@@ -7,10 +7,10 @@ import { User } from '../user';
   styleUrls: ['./user-form.component.css']
 })
 export class UserFormComponent implements OnInit {
-  newUser = new User(0, "", new Date());
-  @Output() addUser=new EventEmitter<User>();
+  newUser = new User(0, "", "", new Date());
+  @Output() addUser = new EventEmitter<User>();
 
-  submitUser(){
+  submitUser() {
     this.addUser.emit(this.newUser);
   }
 

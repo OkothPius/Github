@@ -9,6 +9,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { UserFormComponent } from './user-form/user-form.component';
 import { FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -22,9 +23,10 @@ import { FormsModule} from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [], //add service to providers
   bootstrap: [AppComponent]
 })
 export class AppModule { }
