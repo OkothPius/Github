@@ -1,27 +1,55 @@
-# Github
+# _Github_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+#### By _Okoth Pius Ogutu_
 
-## Development server
+#### Date _31-03-2019_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+_An angularJs application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.._
+_LIVE LINK:_ https://okothpius.github.io/Github/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Behavior Driven Development(BDD)
 
-## Build
+| Behavior        | Input           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Any GitHub User enters his/her name in the search box | Github Checks if the user exist | If the user exist his/her profile is displayed plus the repos and followers else nothing shows and the page says user doesnt exist  |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Setup/Installation Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* _You must be using Linux or MacOs_
+* _Install Nodejs and angular using npm in terminal_
+* _Open your GITHUB account_
+* _Clone this repository_
+* _cd to the folder called Github_
+* _ng serve_
+* _Copy the link to your browser_
+* _Check your github account using my application_
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Bugs
 
-## Further help
+* _No bugs_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Technologies Used
+
+* _TypeScript_
+* _Angularjs_
+* _HTML_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
+
+## Contact Information
+
+* _FACEBOOK:_ _orukopius_
+* _IG:_ _oruko_
+* _TEL:_ 0719-121-890
+
+### License
+
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2019 **_Okoth Pius Ogutu_**
