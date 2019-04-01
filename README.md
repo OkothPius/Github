@@ -30,7 +30,7 @@ _LIVE LINK:_ https://okothpius.github.io/Github/
 
 ## Bugs
 
-* _No bugs_
+* _The Application Loads slowly,kindly exercise patience while it loads_
 
 
 ## Technologies Used
